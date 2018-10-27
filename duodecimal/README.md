@@ -78,7 +78,7 @@ int main(){
   // if input is smaller than 0, print a minus and flip sign
   if (i<0) {
     cout<<"-";
-    i*=-1;
+    i=-i;
   }
 
   // increment t by a factor 12 until it is less than a factor 12 smaller than the input
